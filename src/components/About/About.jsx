@@ -3,6 +3,8 @@ import './About.css'
 import Header from '../Navbar/Navbar'
 import About1 from '../../assets/About1.png'
 import mission from '../../assets/mission.webp'
+import About1 from '../../assets/About1.png';
+
 
 const About = () => {
     return (

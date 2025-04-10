@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import Header from '../Navbar/Navbar'
-import About1 from '../../assets/About1.png'
+import About1 from '../../assets/about1.png'
 import mission from '../../assets/mission.webp'
 
 

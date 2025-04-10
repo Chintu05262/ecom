@@ -6,20 +6,21 @@ import '../../components/Home/Home.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
+// Import images
+import img2 from '../../assets/img2.webp';
+import img3 from '../../assets/img3.webp';
+import img4 from '../../assets/img4.webp';
+import img5 from '../../assets/img5.webp';
+import img6 from '../../assets/img6.webp';
 
 const Details = () => {
-
     const imageList = [
-        { src: "/src/assets/img2.webp", href: "/src/assets/img2.webp" },
-        { src: "/src/assets/img3.webp", href: "/src/assets/img21.webp" },
-        { src: "/src/assets/img4.webp", href: "/src/assets/img3.webp" },
-        { src: "/src/assets/img5.webp", href: "/src/assets/img31.webp" },
-        { src: "/src/assets/img6.webp", href: "/src/assets/img4.webp" },
-
+        { src: img2, href: img2 },
+        { src: img3, href: img3 },
+        { src: img4, href: img4 },
+        { src: img5, href: img5 },
+        { src: img6, href: img6 },
     ];
-    
 
     return (
         <>
@@ -89,15 +90,13 @@ const Details = () => {
                                             <p>+</p>
                                         </div>
                                     </div>
-                                    {/* <div className="details_btn">
-                                        <button className="cart_btn">Add to Cart</button>
-                                        <button>Buy it Now</button>
-                                    </div> */}
+
                                     <div className="shipping--details">
-                                        <p><img src="assets/images/free-delivery.png" className="img-fluid" alt="" />Free shipping on all orders over ₹199</p>
-                                        <p><img src="assets/images/shopping-carts.png" className="img-fluid" alt="" />Sold and shipped by Decor.shop</p>
-                                        <p><img src="assets/images/return-box.png" className="img-fluid" alt="" />Free 30-Day returns</p>
+                                        <p><img src="/assets/images/free-delivery.png" className="img-fluid" alt="" />Free shipping on all orders over ₹199</p>
+                                        <p><img src="/assets/images/shopping-carts.png" className="img-fluid" alt="" />Sold and shipped by Decor.shop</p>
+                                        <p><img src="/assets/images/return-box.png" className="img-fluid" alt="" />Free 30-Day returns</p>
                                     </div>
+
                                     <div className="product_info">
                                         <h6>Description</h6>
                                         <p>This men's backpack has a glam look, thanks to a faux-leather build with an allover fur print. The front zip pocket keeps small things within reach, while an interior divider reins in potential chaos.</p>

@@ -13,7 +13,7 @@ import img3 from '../../assets/img3.webp';
 import img4 from '../../assets/img4.webp';
 import img5 from '../../assets/img5.webp';
 import img6 from '../../assets/img6.webp';
-import bannerImage from '../../assets/offer_banner.webp';
+import bannerImage from '../../assets/Offer_Banner.webp';
 import blogImg1 from '../../assets/bg_01.progressive.webp';
 import blogImg2 from '../../assets/bg_02.progressive.webp'; // Assuming you have a second blog image
 

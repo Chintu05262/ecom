@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './Details.css';
+// import './About.css';
 import Footer from '../Footer/Footer';
 import '../../components/Home/Home.css';
 import "slick-carousel/slick/slick.css";
@@ -29,7 +30,7 @@ const Details = () => {
                 <div className="container">
                     <div className="global_banner__content">
                         <h1>Black & White Printed A-Line Top</h1>
-                        <div className="myBreadcrumb">
+                        <div className="breadcrumb_wrapper__content">
                             <a href="/">Home</a>
                             <span>/</span>
                             <a href="/products">Products</a>

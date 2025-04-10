@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="col-xl-3">
                                 <div className="footer_left">
                                     <div className="logo">
-                                        <a href="#">foesta.</a>
+                                        <Link to="/">foesta.</Link>
                                     </div>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum fuga deleniti atque quisquam voluptatum tenetur aut.</p>
                                     <div className="social_link">
@@ -25,10 +25,10 @@ const Footer = () => {
                                 <div className="footer_box">
                                     <h3>Quick Links</h3>
                                     <div className="footer_links">
-                                        <a href="#">About Us</a>
-                                        <a href="#">Blogs</a>
-                                        <a href="#">Our Products</a>
-                                        <a href="#">Contact Us</a>
+                                        <Link to="/about">About Us</Link>
+                                        <Link to="#">Blogs</Link>
+                                        <Link to="/products">Our Products</Link>
+
                                         <Link to="/Contact">Contact</Link>
                                     </div>
                                 </div>

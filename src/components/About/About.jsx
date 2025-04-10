@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Footer from '../Footer/Footer'
 import Header from '../Navbar/Navbar'
 import About1 from '../../assets/about1.png'
 import mission from '../../assets/mission.webp'
@@ -52,6 +53,26 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            <section className='mission_vision global_wrapper'>
+                <div className="container">
+                    <div className="row">
+                      
+                        <div className="col-lg-6">
+                            <div className="mission_vision__content">
+                                <h2>Our Vision</h2>
+                                <p>At Saatvikei, we aim to redefine ethnic wear by offering stylish, versatile, and breathable garments that empower women with confidence and comfort. We are committed to preserving the authenticity of Indian textiles while making them wearable across all seasons. Our mission is to create ensembles that resonate with modern women—effortlessly elegant, deeply rooted in tradition, and adaptable to their dynamic lifestyles.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="mission_vision__img">
+                                <img src={mission} className='img-fluid' loading='lazy' alt="mission" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <Footer/>
         </>
 
     )
